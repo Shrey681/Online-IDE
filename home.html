@@ -10,9 +10,9 @@
   
   <div class = "Navbar">
     <div class = "Navbar" id = "left">
-      <div>Editor</div>
+      <div id = "nav-heading">EDITOR</div>
       <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Language</button>
+        <button onclick="getLanguage()" class="dropbtn">Language</button>
         <div id="myDropdown" class="dropdown-content">
           <a href="#">Python</a>
           <a href="#">Java</a>
@@ -21,11 +21,15 @@
       </div>
     </div>
     
-    <div class = "Navbar" id = "right">Right</div>
+    <div class = "Navbar" id = "right">
+      <button onclick="run()" class="dropbtn runbtn">RUN</button>
+    </div>
   </div>
   
   <div class = "IO">
-  <div class = "Input">Input</div>
+  <div class = "Input">
+    <textarea id="textarea1" class="input shadow" name="name" wrap="off" placeholder="Enter your Code here"></textarea>
+  </div>
   <div class = "Output">Output</div>
   </div>
 
