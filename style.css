@@ -1,0 +1,35 @@
+html{
+  min-height: 100%;
+  display: flex;
+}
+
+body{
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+  margin: 0
+}
+
+.Header{
+  height: 6.5%;
+}
+
+.Navbar{
+  height: 6.5%
+}
+
+.IO{
+  flex-direction: row;
+  display: flex;
+  flex: 1;
+}
+
+.Input{
+  flex: 1;
+}
+
+.Output {
+  flex: 1;
+}
