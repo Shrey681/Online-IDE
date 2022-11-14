@@ -6,8 +6,23 @@
 </head>
 
 <body>
-  <div class = "Header">Header</div>
-  <div class = "Navbar">Navbar</div>
+  <div class = "Header">IDE</div>
+  
+  <div class = "Navbar">
+    <div class = "Navbar" id = "left">
+      <div>Editor</div>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Language</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">Python</a>
+          <a href="#">Java</a>
+          <a href="#">C/C++</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class = "Navbar" id = "right">Right</div>
+  </div>
   
   <div class = "IO">
   <div class = "Input">Input</div>
